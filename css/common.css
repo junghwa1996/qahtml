@@ -324,8 +324,8 @@ sup{
 .slider_control{position: absolute; bottom: -32px; left: 720px;}
 .slider_control button{cursor: pointer; display: none;}
 .slider_control button.active{display: inline-block;}
-.slider_control .stop{background: url('/images/pause.png') no-repeat center/contain; width: 12px; height: 16px;}
-.slider_control .play{background: url('/images/play.png') no-repeat center/contain; width: 12px; height: 16px;}
+.slider_control .stop{background: url('../images/pause.png') no-repeat center/contain; width: 12px; height: 16px;}
+.slider_control .play{background: url('../images/play.png') no-repeat center/contain; width: 12px; height: 16px;}
 
 @media screen and (max-width: 1440px) and (min-width: 768px){
 	sup{
@@ -576,8 +576,8 @@ sup{
 	.slider_control{position: absolute; bottom: -2.2222vw; left: 50.0000vw;}
 	.slider_control button{cursor: pointer; display: none;}
 	.slider_control button.active{display: inline-block;}
-	.slider_control .stop{background: url('/images/pause.png') no-repeat center/contain; width: 0.8333vw; height: 1.1111vw;}
-	.slider_control .play{background: url('/images/play.png') no-repeat center/contain; width: 0.8333vw; height: 1.1111vw;}
+	.slider_control .stop{background: url('../images/pause.png') no-repeat center/contain; width: 0.8333vw; height: 1.1111vw;}
+	.slider_control .play{background: url('../images/play.png') no-repeat center/contain; width: 0.8333vw; height: 1.1111vw;}
 }
 
 
@@ -839,6 +839,6 @@ sup{
 	.slider_control{position: absolute; bottom: -7.3611vw; left: 61.1111vw;}
 	.slider_control button{cursor: pointer; display: none;}
 	.slider_control button.active{display: inline-block;}
-	.slider_control .stop{background: url('/images/pause.png') no-repeat center/contain; width: 2.7778vw; height: 3.3333vw;}
-	.slider_control .play{background: url('/images/play.png') no-repeat center/contain; width: 2.7778vw; height: 3.3333vw;}
+	.slider_control .stop{background: url('../images/pause.png') no-repeat center/contain; width: 2.7778vw; height: 3.3333vw;}
+	.slider_control .play{background: url('../images/play.png') no-repeat center/contain; width: 2.7778vw; height: 3.3333vw;}
 }
