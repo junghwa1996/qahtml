@@ -1,7 +1,6 @@
 /* top banner */
 .top_banner{position: relative; background: url('../images/top_banner_bg.png') no-repeat center/cover; width: 100%; height: 307px;}
-.top_banner .txt_box{position: absolute; left: 50%; top: 57px; transform: translateX(-50%);}
-.top_banner .txt_box{text-align: center;}
+.top_banner .txt_box{position: absolute; left: 50%; top: 57px; transform: translateX(-50%);text-align: center;}
 .top_banner .txt_box h2{font-size: 48px; font-weight: 700; margin-bottom: 40px;}
 .top_banner .txt_box p{font-size: 22px; font-weight: 400; color: #666666; line-height: 1.8;}
 
@@ -294,16 +293,15 @@
 /* nav wrap */
 .nav_wrap{padding-top: 1.8056vw; border-top: 0; border-bottom: 0.4167vw solid #000; overflow-x: auto; }
 .nav_wrap .inner_wrap{padding: 0; }
-.ctn_nav{display: flex;}
-.ctn_nav li{position: relative; border-top: 0.1389vw solid #dddddd;}
-.ctn_nav li a{display: flex; flex-direction: column; justify-content: flex-start; width: 35.2778vw; height: 24.5833vw; border-left: 0.1389vw solid #ddd; position: relative;}
+.ctn_nav li{border-top: 0.1389vw solid #dddddd;}
+.ctn_nav li a{justify-content: flex-start; width: 35.2778vw; height: 24.5833vw; border-left: 0.1389vw solid #ddd;}
 .ctn_nav li.on{background-color: #000; border-top: 0;}
 .ctn_nav li.on a{height: 26.5278vw; color: #fff; border-radius: 1.3889vw 1.3889vw 0 0; margin-top: -1.8056vw;}
-.ctn_nav li.on a::after{position: absolute; content: ''; width: 1.3889vw; height: 24.3056vw; right: -1.3889vw; top: 2.2222vw; background-color: #dedede; }
-.ctn_nav li.on a::before{position: absolute; content: ''; width: 0.1389vw; height: 0.6944vw; right: -1.3889vw; top: 0.2778vw; border-bottom: 1.2500vw solid #dedede; border-right: 1.2500vw solid transparent;}
+.ctn_nav li.on a::after{width: 1.3889vw; height: 24.3056vw; right: -1.3889vw; top: 2.2222vw; background-color: #dedede; }
+.ctn_nav li.on a::before{width: 0.1389vw; height: 0.6944vw; right: -1.3889vw; top: 0.2778vw; border-bottom: 1.2500vw solid #dedede; border-right: 1.2500vw solid transparent;}
 .ctn_nav li .txt_wrap{margin-left: 4.1667vw;}
-.ctn_nav li .small_tag{position: absolute; top: 2.5000vw; left: 23.6111vw;}
-.ctn_nav li .title{font-size: 3.0556vw; font-weight: 700; line-height: 1.3; margin-bottom: 1.1111vw; margin-top: 3.6111vw;}
+.ctn_nav li .small_tag{top: 2.5000vw; left: 23.6111vw;}
+.ctn_nav li .title{font-size: 3.0556vw; margin-bottom: 1.1111vw; margin-top: 3.6111vw;}
 .ctn_nav li.on .title{margin-top: 5.4167vw;}
 .ctn_nav li .date{font-size: 2.2222vw;}
 
